@@ -1,10 +1,10 @@
 'use strict';
 
-exports = module.exports = () => {
-	return (new Error()).stack
+exports = module.exports = (stack) => {
+	return (stack || (new Error()).stack)
 		.split('\n')
 		.map(line => line.trim())
-		.slice(2)
+		.slice(stack ? 1 : 2)
 		.map((line) => {
 			return /^at ((.*?)(?: \[as (.*?)\])? \((.*?):([0-9]+):([0-9]+)\)|(.*?):([0-9]+):([0-9]+))$/.exec(line);
 		})
