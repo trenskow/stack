@@ -1,6 +1,6 @@
 {
   "name": "@trenskow/stack",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Get the current stack trace as an array (V8 only).",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/trenskow/stack#readme",
   "devDependencies": {
-    "eslint": "^8.2.0"
+    "eslint": "^8.13.0"
   }
 }
