@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/trenskow/stack#readme",
   "devDependencies": {
-    "eslint": "^8.52.0"
+    "eslint": "^8.56.0"
   }
 }
