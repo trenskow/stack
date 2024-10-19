@@ -1,6 +1,4 @@
-'use strict';
-
-exports = module.exports = (stack) => {
+export default (stack) => {
 	return (stack || (new Error()).stack)
 		.split('\n')
 		.map(line => line.trim())
