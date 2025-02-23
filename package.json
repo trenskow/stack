@@ -1,6 +1,6 @@
 {
 	"name": "@trenskow/stack",
-	"version": "0.2.4",
+	"version": "0.2.5",
 	"description": "Get the current stack trace as an array (V8 only).",
 	"main": "index.js",
 	"type": "module",
